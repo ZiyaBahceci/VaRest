@@ -1,25 +1,28 @@
 {
-	"FileVersion" : 3,
-	"FriendlyName" : "VaRest",
-	"Version" : 32,
-	"VersionName" : "1.1-r34",
-	"CreatedBy" : "Vladimir Alyamkin",
-	"CreatedByURL" : "https://ufna.dev",
-	"EngineVersion" : "5.4.0",
-	"Description" : "Plugin that makes REST (JSON) server communication easy to use",
-	"Category" : "Network",
+	"FileVersion": 3,
+	"Version": 32,
+	"VersionName": "1.1-r34",
+	"FriendlyName": "VaRest",
+	"Description": "Plugin that makes REST (JSON) server communication easy to use",
+	"Category": "Network",
+	"CreatedBy": "Vladimir Alyamkin",
+	"CreatedByURL": "https://ufna.dev",
 	"DocsURL": "https://bit.ly/VaRest-Docs",
-	"MarketplaceURL" : "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f",
-	"Modules" :
-	[
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/e47be161e7a24e928560290abd5dcc4f",
+	"SupportURL": "",
+	"EngineVersion": "5.5.0",
+	"CanContainContent": false,
+	"Installed": true,
+	"Modules": [
 		{
-			"Name" : "VaRest",
-			"Type" : "Runtime",
+			"Name": "VaRest",
+			"Type": "Runtime",
 			"LoadingPhase": "PreDefault"
 		},
 		{
 			"Name": "VaRestEditor",
-			"Type": "UncookedOnly"
+			"Type": "UncookedOnly",
+			"LoadingPhase": "Default"
 		}
 	]
 }
