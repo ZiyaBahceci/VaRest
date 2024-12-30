@@ -1,5 +1,4 @@
-// Copyright 2014-2019 Vladimir Alyamkin. All Rights Reserved.
-// Original code by https://github.com/unktomi
+// Copyright 2024 Ziya Bahceci. All Rights Reserved.
 
 #pragma once
 

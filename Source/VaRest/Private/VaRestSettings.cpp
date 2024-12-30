@@ -1,4 +1,4 @@
-// Copyright 2014-2019 Vladimir Alyamkin. All Rights Reserved.
+// Copyright 2024 Ziya Bahceci. All Rights Reserved.
 
 #include "VaRestSettings.h"
 
